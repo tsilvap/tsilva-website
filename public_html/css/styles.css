@@ -1,0 +1,143 @@
+/* General */
+html {
+  font-size: 62.5%;
+  height: 100%; }
+
+body {
+  color: #211a1d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  height: 100%;
+  margin: 0 .8rem; }
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 72rem; }
+
+/* Header */
+.logo {
+  background-color: #8075ff;
+  color: white;
+  display: table;
+  font-family: "Source Code Pro", monospace;
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin: .8rem 0;
+  padding: .8rem; }
+
+.logo:hover {
+  box-shadow: 2px 2px 2px #cad5ca;
+  color: white;
+  text-shadow: none; }
+
+.navbar {
+  align-items: center;
+  background-color: #211a1d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-transform: uppercase; }
+
+@media screen and (min-width: 31.25em) {
+  .navbar {
+    flex-direction: row; } }
+
+.nav-button {
+  color: white;
+  font-weight: bold;
+  padding: .8rem 4.8rem; }
+
+.nav-button:hover {
+  background-color: #352e31;
+  color: white;
+  text-shadow: none; }
+
+/* Main content */
+main {
+  flex-grow: 1; }
+
+a {
+  color: #6d6f75;
+  text-decoration: none; }
+
+a:hover {
+  color: #6320ee;
+  text-shadow: 1px 1px 1px #cad5ca; }
+
+address {
+  font-style: normal; }
+
+h2 {
+  background-color: #211a1d;
+  color: white;
+  display: table;
+  font-size: 2.4rem;
+  padding: 0 1.6rem; }
+
+h3 {
+  background-color: #211a1d;
+  color: white;
+  display: table;
+  padding: 0 1.6rem; }
+
+i.fas,
+i.fab {
+  padding-left: .2rem; }
+
+li {
+  list-style: square; }
+
+/* Footer */
+footer {
+  font-size: 1.33333rem;
+  padding: 1.6rem;
+  text-align: center; }
+  footer li {
+    list-style: none; }
+
+/* Content */
+.content-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column; }
+
+.paragraph-wrapper {
+  align-self: flex-start; }
+
+@media screen and (min-width: 31.25em) {
+  .content-wrapper {
+    flex-direction: row; }
+  .paragraph-wrapper {
+    flex-grow: 1; } }
+
+.album-grid {
+  padding: 1.6rem; }
+
+.album-cell {
+  height: 128px;
+  width: 128px;
+  border: 1px solid #6d6f75; }
+
+.album-cell:hover {
+  border: 1px solid #6320ee;
+  box-shadow: 0 0 3px 1px #cad5ca; }
+
+/* Content */
+.cv-entry {
+  display: flex;
+  flex-direction: column; }
+
+@media screen and (min-width: 31.25em) {
+  .cv-entry {
+    flex-direction: row-reverse; }
+  .entry-text {
+    flex-grow: 1;
+    padding-right: 3.2rem; } }
+
+.entry-date {
+  flex-shrink: 0;
+  font-weight: bold;
+  margin: 0 0 .8rem 0; }
