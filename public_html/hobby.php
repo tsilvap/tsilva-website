@@ -27,7 +27,7 @@ $content = <<<HTML
     </div>
   </div>
 
-  <div class="d-flex col-12 col-sm-9 col-md-6 col-xl-4 align-self-center justify-content-center">
+  <div class="d-flex col-12 col-sm-9 col-md-6 col-lg-5 col-xl-4 align-self-center justify-content-center">
     <table class="album-grid">
       <tr>
         <td data-aos="fade-up" data-aos-delay="100">
