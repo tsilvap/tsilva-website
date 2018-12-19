@@ -32,18 +32,7 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.php">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="hobby.php">Interesses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="cv.php">Currículo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contato.php">Contato</a>
-              </li>
+              <?= $navItems ?>
             </ul>
           </div>
         </div>

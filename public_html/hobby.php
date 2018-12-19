@@ -1,5 +1,20 @@
 <?php
 
+$navItems = <<<HTML
+<li class="nav-item">
+  <a class="nav-link" href="index.php">Home</a>
+</li>
+<li class="nav-item active">
+  <a class="nav-link" href="hobby.php">Interesses</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="cv.php">Currículo</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="contato.php">Contato</a>
+</li>
+HTML;
+
 $content = <<<HTML
 <div class="content-wrapper">
   <div class="paragraph-wrapper">
