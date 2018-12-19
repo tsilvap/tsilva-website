@@ -1,4 +1,42 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu,
     Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.page-wrapper {
+  height: 100%;
+}
+
+.navbar {
+  background-color: #8c70f3;
+  box-shadow: 0 -3px 10px #212121;
+
+}
+
+.content {
+  padding: 75px 0 35px 0;
+}
+
+a {
+  color: #8c70f3;
+}
+
+a:hover {
+  color: #4d31e5;
+}
+
+footer li {
+  font-size: .8em;
+  list-style-type: none;
+}
+
+.icon-large {
+  font-size: 2em;
+  padding: 0 .2em;
 }

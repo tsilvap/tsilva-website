@@ -21,41 +21,48 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="index.php">Thiago da Silva</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Expandir/ocultar barra de navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="page-wrapper d-flex flex-column">
+      <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.php">Thiago da Silva</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Expandir/ocultar barra de navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="hobby.php">Interesses</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="cv.php">Currículo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contato.php">Contato</a>
-            </li>
-          </ul>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.php">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hobby.php">Interesses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cv.php">Currículo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.php">Contato</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+
+      <div class="content container flex-grow-1">
+        <?= $content ?>
       </div>
-    </nav>
-    <div class="container">
-      <?= $content ?>
-    </div>
-      <footer>
-        <ul>
-          <li><a href="https://github.com/tsilvap"><i class="fab fa-github"></i> GitHub</a> • <a href="https://www.linkedin.com/in/thiago-da-silva-268827176/"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
-          <li><a href="https://github.com/tsilvap/tsilva-website">Código-fonte desta página no meu <i class="fab fa-github"></i> GitHub.</a>
-        </ul>
+
+      <footer class="">
+        <div class="container">
+          <div class="d-flex justify-content-center text-center">
+            <ul>
+              <li><a href="https://github.com/tsilvap"><i class="fab fa-github icon-large"></i></a> <a href="https://www.linkedin.com/in/thiago-da-silva-268827176/"><i class="fab fa-linkedin-in icon-large"></i></a> <a href="#"><i class="fab fa-google-plus-g icon-large"></i></a></li>
+              <li><a href="https://github.com/tsilvap/tsilva-website">Código-fonte desta página no meu GitHub.</a></li>
+            </ul>
+          </div>
+        </div>
       </footer>
     </div>
 
