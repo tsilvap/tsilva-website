@@ -16,7 +16,16 @@ body {
 .navbar {
   background-color: #8c70f3;
   box-shadow: 0 -3px 10px #212121;
+  transition-property: top;
+  transition-duration: .3s;
+}
 
+.navbar.nav-down {
+  top: 0px;
+}
+
+.navbar.nav-up {
+  top: -60px;
 }
 
 .content {
