@@ -18,13 +18,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
           integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro&text=Thiago%20da%20Silva">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
   </head>
   <body>
     <div class="page-wrapper d-flex flex-column">
       <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="index.php">Thiago da Silva</a>
+          <a class="navbar-brand position-relative" href="index.php">Thiago da Silva</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                   aria-controls="navbarSupportedContent" aria-expanded="false"
                   aria-label="Expandir/ocultar barra de navegação">

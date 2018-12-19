@@ -28,6 +28,31 @@ body {
   top: -60px;
 }
 
+.navbar-brand {
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-brand:hover {
+  animation-duration: .3s;
+  animation-name: shake;
+  animation-iteration-count: 2;
+}
+
+@keyframes shake {
+  from {
+    top: 0;
+  } 25% {
+    top: 1px;
+  } 50% {
+    top: 0;
+  } 75% {
+    top: -1px;
+  } to {
+    top: 0;
+  }
+}
+
 .content {
   padding: 80px 16px 35px 16px;
 }

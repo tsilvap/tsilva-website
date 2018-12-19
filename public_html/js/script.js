@@ -34,5 +34,3 @@ function hasScrolled() {
     }
     lastScrollY = sy;
 }
-
-console.log(this);
