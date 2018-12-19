@@ -17,7 +17,7 @@ HTML;
 
 $content = <<<HTML
 <div class="row align-items-center">
-  <div class="col-12 col-sm-6">
+  <div class="col-12 col-sm-6" data-aos="fade-up">
     <h2>Olá!</h2>
 
     <p>Eu sou o Thiago. Eu tenho 20 anos, e faço desenvolvimento web. Eu trabalho com HTML, CSS, bastante JavaScript e um pouco de PHP.</p>
@@ -27,7 +27,7 @@ $content = <<<HTML
     <p>No momento estou procurando um emprego nesta área. Se você está procurando um desenvolvedor apaixonado pela web e
       aberto para aprender coisas novas, vamos conversar, entre em contato.</p>
   </div>
-  <div class="col-12 col-sm-6">
+  <div class="col-12 col-sm-6" data-aos="fade-up" data-aos-delay="500">
     <div class="card">
       <img src="images/notebook.jpeg" alt="Notebook e livro sobre mesa" class="card-img">
     </div>
