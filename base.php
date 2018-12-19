@@ -24,7 +24,7 @@
   </head>
   <body>
     <div class="page-wrapper d-flex flex-column">
-      <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container">
           <a class="navbar-brand position-relative" href="index.php">Thiago da Silva</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
