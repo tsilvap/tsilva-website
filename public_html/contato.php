@@ -16,17 +16,18 @@ $navItems = <<<HTML
 HTML;
 
 $content = <<<HTML
-<h2>Contato</h2>
-<address>
-  Você pode entrar em contato comigo através de:
-  <ul>
-    <li><b>Email (de preferência):</b>
-      <a href="mailto:thiagodasilva@protonmail.com">thiagodasilva@protonmail.com</a>
-    <li><b>Telefone celular:</b>
-      Pergunte-me por e-mail. :-)
-  </ul>
-</address>
-
+<div data-aos="fade-up">
+  <h2>Contato</h2>
+  <address>
+    Você pode entrar em contato comigo através de:
+    <ul>
+      <li><b>Email (de preferência):</b>
+        <a href="mailto:thiagodasilva@protonmail.com">thiagodasilva@protonmail.com</a></li>
+      <li><b>Telefone celular:</b>
+        Pergunte-me por e-mail. :-)</li>
+    </ul>
+  </address>
+</div>
 HTML;
 
 require_once '../base.php';
