@@ -18,16 +18,19 @@ HTML;
 $content = <<<HTML
 <div class="align-self-center" data-aos="fade-up">
   <div class="card">
-    <img src="images/contato.jpg" alt="Contato" class="card-img-top">
+    <img src="images/contato.jpg" alt="Contato" class="card-img-top" />
     <div class="card-body">
       <h2 class="card-title">Contato</h2>
       <address class="card-text">
         Você pode entrar em contato comigo através de:
         <ul>
-          <li><b>Email (de preferência):</b>
-            <a href="mailto:thiagodasilva@protonmail.com">thiagodasilva@protonmail.com</a></li>
-          <li><b>Telefone celular:</b>
-            Pergunte-me por e-mail. :-)</li>
+          <li>
+            <b>Email (de preferência):</b>
+            <a href="mailto:thiagodasilva@protonmail.com">thiagodasilva@protonmail.com</a>
+          </li>
+          <li>
+            <b>Telefone celular:</b> Pergunte-me por e-mail. :-)
+          </li>
         </ul>
       </address>
     </div>

@@ -2,25 +2,26 @@
   <html lang="pt-BR">
   <head>
     <!-- Tags meta obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- CSS Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
 
     <!-- Animate on Scroll -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Thiago da Silva</title>
 
-    <meta name="description" content="Site pessoal de um desenvolvedor web.">
-    <meta name="keywords" content="desenvolvedor, desenvolvimento, web, pessoal">
-    <meta name="author" content="Thiago da Silva">
+    <meta name="description" content="Site pessoal de um desenvolvedor web." />
+    <meta name="keywords" content="desenvolvedor, desenvolvimento, web, pessoal" />
+    <meta name="author" content="Thiago da Silva" />
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro&text=Thiago%20da%20Silva">
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro&amp;text=Thiago%20da%20Silva" />
   </head>
   <body>
     <div class="page-wrapper d-flex flex-column">
@@ -45,11 +46,15 @@
         <?= $content ?>
       </div>
 
-      <footer class="">
+      <footer>
         <div class="container">
           <div class="d-flex justify-content-center text-center">
             <ul>
-              <li><a href="https://github.com/tsilvap"><i class="fab fa-github icon-large"></i></a> <a href="https://www.linkedin.com/in/thiago-da-silva-268827176/"><i class="fab fa-linkedin-in icon-large"></i></a> <a href="#"><i class="fab fa-google-plus-g icon-large"></i></a></li>
+              <li>
+                <a href="https://github.com/tsilvap"><i class="fab fa-github icon-large"></i></a>
+                <a href="https://www.linkedin.com/in/thiago-da-silva-268827176/"><i class="fab fa-linkedin-in icon-large"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g icon-large"></i></a>
+              </li>
               <li><a href="https://github.com/tsilvap/tsilva-website">Código-fonte desta página no meu GitHub.</a></li>
             </ul>
           </div>

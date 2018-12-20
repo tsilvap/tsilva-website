@@ -29,7 +29,7 @@ $content = <<<HTML
   </div>
   <div class="col-12 col-sm-6" data-aos="fade-up" data-aos-delay="500">
     <div class="card">
-      <img src="images/notebook.jpeg" alt="Notebook e livro sobre mesa" class="card-img">
+      <img src="images/notebook.jpeg" alt="Notebook e livro sobre mesa" class="card-img" />
     </div>
   </div>
 </div>
