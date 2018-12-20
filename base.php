@@ -41,7 +41,7 @@
         </div>
       </nav>
 
-      <div class="content container flex-grow-1">
+      <div class="content container d-flex flex-column flex-grow-1 justify-content-center">
         <?= $content ?>
       </div>
 
