@@ -20,10 +20,6 @@ body {
   transition-duration: .3s;
 }
 
-.navbar.nav-down {
-  top: 0px;
-}
-
 .navbar.nav-up {
   top: -60px;
 }
@@ -37,6 +33,8 @@ body {
   animation-duration: .3s;
   animation-name: shake;
   animation-iteration-count: 2;
+  animation-timing-function: ease-in-out;
+  position: relative;
 }
 
 @keyframes shake {
@@ -57,44 +55,12 @@ body {
   padding: 80px 16px 35px 16px;
 }
 
-.fadein {
-  animation-duration: 1s;
-  animation-name: fadein;
-  position: relative;
-}
-
-.fadein-2 {
-  animation-duration: 1.5s;
-  animation-name: fadein-2;
-  position: relative;
-}
-
-@keyframes fadein {
-  from {
-    top: 30px;
-    opacity: .5;
-  } to {
-    top: 0px;
-    opacity: 1;
-  }
-}
-
-@keyframes fadein-2 {
-  from {
-    top: 45px;
-    opacity: .3;
-  } to {
-    top: 0px;
-    opacity: 1;
-  }
-}
-
 a {
   color: #8c70f3;
 }
 
 a:hover {
-  color: #aac218;
+  color: #3d2ddf;
 }
 
 footer li {

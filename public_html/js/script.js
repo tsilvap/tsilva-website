@@ -26,11 +26,9 @@ function hasScrolled() {
     }
 
     if (sy > lastScrollY && sy > navbarHeight) {
-        navbar.classList.remove('nav-down');
         navbar.classList.add('nav-up');
     } else {
         navbar.classList.remove('nav-up');
-        navbar.classList.add('nav-down');
     }
     lastScrollY = sy;
 }

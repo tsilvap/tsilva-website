@@ -26,7 +26,7 @@
     <div class="page-wrapper d-flex flex-column">
       <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container">
-          <a class="navbar-brand position-relative" href="index.php">Thiago da Silva</a>
+          <a class="navbar-brand" href="index.php">Thiago da Silva</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                   aria-controls="navbarSupportedContent" aria-expanded="false"
                   aria-label="Expandir/ocultar barra de navegação">
