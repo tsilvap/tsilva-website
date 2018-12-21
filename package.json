@@ -1,0 +1,28 @@
+{
+  "name": "tsilva-website",
+  "version": "1.0.0",
+  "description": "My personal website.",
+  "main": "public_html/index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsilvap/tsilva-website.git"
+  },
+  "author": "Thiago da Silva",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/tsilvap/tsilva-website/issues"
+  },
+  "homepage": "https://tsilva.me/",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.3"
+  }
+}
